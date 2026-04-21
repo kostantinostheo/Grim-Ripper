@@ -2,7 +2,7 @@
 
 ![Grim Rippper Logo](./icon/GrimRipperIcon_ssm.png) 
 
-## 📖 Background
+## Background
 
 While digging through some old boxes, I found a collection of DVDs from when I was young. I wanted to digitize them to preserve those memories, but ripping each DVD one by one was tedious and time-consuming. 
 
@@ -10,18 +10,18 @@ To save time, I decided to create **Grim Ripper** — a **Python** wrapper aroun
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔁 Batch rip multiple DVDs from a directory
-- 🖥️ Use GPU (`nvenc_h264`) or CPU (`x264`) encoding
-- 📏 Choose output resolution: `720p`, `1080p`, or `2160p`
-- ⚙️ Select encoding speed: `slow`, `mid`, or `fast`
-- 📄 Provide a custom argument file to override all defaults
-- 📂 Outputs organized by DVD label
+- Batch rip multiple DVDs from a directory
+- Use GPU (`nvenc_h264`) or CPU (`x264`) encoding
+- Choose output resolution: `720p`, `1080p`, or `2160p`
+- Select encoding speed: `slow`, `mid`, or `fast`
+- Provide a custom argument file to override all defaults
+- Outputs organized by DVD label
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - [HandBrakeCLI](https://handbrake.fr/downloads2.php) installed and available in your `PATH`
@@ -49,7 +49,7 @@ brew install handbrake libdvdcss
 ```
 
 
-## 🔧 Grim Ripper Installation
+## Grim Ripper Installation
 
 Clone this repo:
 
@@ -59,7 +59,7 @@ cd rippper
 ```
 ---
 
-## ⚙️ Usage
+## Usage
 ### Option 1: Use built-in presets
 
 ```bash
@@ -80,7 +80,7 @@ python3 grimripper.parallel.py -i /media/youruser/ -o ./rips --custom-args-file 
 
 ---
 
-## 🔍 Command-Line Options
+## Command-Line Options
 
 | Flag                 | Description                                                        |
 |----------------------|--------------------------------------------------------------------|
@@ -93,7 +93,7 @@ python3 grimripper.parallel.py -i /media/youruser/ -o ./rips --custom-args-file 
 
 ---
 
-## 📂 Output Structure
+## Output Structure
 
 ```
 ./rips/ 
